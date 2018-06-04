@@ -1,0 +1,46 @@
+# Logfile created on 2018-05-25 16:59:24 -0300 by logger.rb/56438
+D, [2018-05-25T17:00:00.728077 #332] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2018-05-25T17:00:00.729078 #332] DEBUG -- : MONGODB | Server ds117719.mlab.com:17719 initializing.
+D, [2018-05-25T17:00:01.730853 #332] DEBUG -- : MONGODB | Server description for ds117719.mlab.com:17719 changed from 'unknown' to 'unknown'.
+D, [2018-05-25T17:00:01.730853 #332] DEBUG -- : MONGODB | Server ds117719-a.mlab.com:17719 initializing.
+D, [2018-05-25T17:00:02.337288 #332] DEBUG -- : MONGODB | Server description for ds117719-a.mlab.com:17719 changed from 'unknown' to 'primary'.
+D, [2018-05-25T17:00:02.337288 #332] DEBUG -- : MONGODB | Topology type 'unknown' changed to type 'replica set'.
+D, [2018-05-25T17:00:02.338289 #332] DEBUG -- : MONGODB | There was a change in the members of the 'replica set' topology.
+D, [2018-05-25T17:00:02.340290 #332] DEBUG -- : MONGODB | ds117719-a.mlab.com:17719 | ninjamotors.delete | STARTED | {"delete"=>"sells", "deletes"=>[{"q"=>{}, "limit"=>0}], "ordered"=>true}
+D, [2018-05-25T17:00:02.642533 #332] DEBUG -- : MONGODB | ds117719-a.mlab.com:17719 | ninjamotors.saslStart | STARTED | {}
+D, [2018-05-25T17:00:02.797657 #332] DEBUG -- : MONGODB | ds117719-a.mlab.com:17719 | ninjamotors.saslStart | SUCCEEDED | 0.155124s
+D, [2018-05-25T17:00:02.820672 #332] DEBUG -- : MONGODB | ds117719-a.mlab.com:17719 | ninjamotors.saslContinue | STARTED | {}
+D, [2018-05-25T17:00:02.974288 #332] DEBUG -- : MONGODB | ds117719-a.mlab.com:17719 | ninjamotors.saslContinue | SUCCEEDED | 0.153112s
+D, [2018-05-25T17:00:02.974788 #332] DEBUG -- : MONGODB | ds117719-a.mlab.com:17719 | ninjamotors.saslContinue | STARTED | {}
+D, [2018-05-25T17:00:03.127604 #332] DEBUG -- : MONGODB | ds117719-a.mlab.com:17719 | ninjamotors.saslContinue | SUCCEEDED | 0.152816s
+D, [2018-05-25T17:00:03.281715 #332] DEBUG -- : MONGODB | ds117719-a.mlab.com:17719 | ninjamotors.delete | SUCCEEDED | 0.941425s
+D, [2018-05-25T17:03:44.312234 #1456] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2018-05-25T17:03:44.312234 #1456] DEBUG -- : MONGODB | Server ds117719.mlab.com:17719 initializing.
+D, [2018-05-25T17:03:45.330145 #1456] DEBUG -- : MONGODB | Server description for ds117719.mlab.com:17719 changed from 'unknown' to 'unknown'.
+D, [2018-05-25T17:03:45.330145 #1456] DEBUG -- : MONGODB | Server ds117719-a.mlab.com:17719 initializing.
+D, [2018-05-25T17:03:45.969154 #1456] DEBUG -- : MONGODB | Server description for ds117719-a.mlab.com:17719 changed from 'unknown' to 'primary'.
+D, [2018-05-25T17:03:45.969154 #1456] DEBUG -- : MONGODB | Topology type 'unknown' changed to type 'replica set'.
+D, [2018-05-25T17:03:45.969154 #1456] DEBUG -- : MONGODB | There was a change in the members of the 'replica set' topology.
+D, [2018-05-25T17:03:45.969154 #1456] DEBUG -- : MONGODB | ds117719-a.mlab.com:17719 | ninjamotors.delete | STARTED | {"delete"=>"sells", "deletes"=>[{"q"=>{}, "limit"=>0}], "ordered"=>true}
+D, [2018-05-25T17:03:46.285367 #1456] DEBUG -- : MONGODB | ds117719-a.mlab.com:17719 | ninjamotors.saslStart | STARTED | {}
+D, [2018-05-25T17:03:46.448138 #1456] DEBUG -- : MONGODB | ds117719-a.mlab.com:17719 | ninjamotors.saslStart | SUCCEEDED | 0.162771s
+D, [2018-05-25T17:03:46.454650 #1456] DEBUG -- : MONGODB | ds117719-a.mlab.com:17719 | ninjamotors.saslContinue | STARTED | {}
+D, [2018-05-25T17:03:46.617423 #1456] DEBUG -- : MONGODB | ds117719-a.mlab.com:17719 | ninjamotors.saslContinue | SUCCEEDED | 0.162773s
+D, [2018-05-25T17:03:46.617423 #1456] DEBUG -- : MONGODB | ds117719-a.mlab.com:17719 | ninjamotors.saslContinue | STARTED | {}
+D, [2018-05-25T17:03:46.770723 #1456] DEBUG -- : MONGODB | ds117719-a.mlab.com:17719 | ninjamotors.saslContinue | SUCCEEDED | 0.1533s
+D, [2018-05-25T17:03:46.933494 #1456] DEBUG -- : MONGODB | ds117719-a.mlab.com:17719 | ninjamotors.delete | SUCCEEDED | 0.96434s
+D, [2018-05-25T17:09:30.300734 #11008] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2018-05-25T17:09:30.301734 #11008] DEBUG -- : MONGODB | Server ds117719.mlab.com:17719 initializing.
+D, [2018-05-25T17:09:31.429082 #11008] DEBUG -- : MONGODB | Server description for ds117719.mlab.com:17719 changed from 'unknown' to 'unknown'.
+D, [2018-05-25T17:09:31.429082 #11008] DEBUG -- : MONGODB | Server ds117719-a.mlab.com:17719 initializing.
+D, [2018-05-25T17:09:32.051540 #11008] DEBUG -- : MONGODB | Server description for ds117719-a.mlab.com:17719 changed from 'unknown' to 'primary'.
+D, [2018-05-25T17:09:32.051540 #11008] DEBUG -- : MONGODB | Topology type 'unknown' changed to type 'replica set'.
+D, [2018-05-25T17:09:32.051540 #11008] DEBUG -- : MONGODB | There was a change in the members of the 'replica set' topology.
+D, [2018-05-25T17:09:32.053539 #11008] DEBUG -- : MONGODB | ds117719-a.mlab.com:17719 | ninjamotors.delete | STARTED | {"delete"=>"sells", "deletes"=>[{"q"=>{}, "limit"=>0}], "ordered"=>true}
+D, [2018-05-25T17:09:32.354754 #11008] DEBUG -- : MONGODB | ds117719-a.mlab.com:17719 | ninjamotors.saslStart | STARTED | {}
+D, [2018-05-25T17:09:32.507869 #11008] DEBUG -- : MONGODB | ds117719-a.mlab.com:17719 | ninjamotors.saslStart | SUCCEEDED | 0.153115s
+D, [2018-05-25T17:09:32.520877 #11008] DEBUG -- : MONGODB | ds117719-a.mlab.com:17719 | ninjamotors.saslContinue | STARTED | {}
+D, [2018-05-25T17:09:32.674991 #11008] DEBUG -- : MONGODB | ds117719-a.mlab.com:17719 | ninjamotors.saslContinue | SUCCEEDED | 0.153113s
+D, [2018-05-25T17:09:32.675491 #11008] DEBUG -- : MONGODB | ds117719-a.mlab.com:17719 | ninjamotors.saslContinue | STARTED | {}
+D, [2018-05-25T17:09:32.829103 #11008] DEBUG -- : MONGODB | ds117719-a.mlab.com:17719 | ninjamotors.saslContinue | SUCCEEDED | 0.153612s
+D, [2018-05-25T17:09:32.981211 #11008] DEBUG -- : MONGODB | ds117719-a.mlab.com:17719 | ninjamotors.delete | SUCCEEDED | 0.927672s

@@ -1,0 +1,159 @@
+[
+  {
+    "uri": "features/specs/anunciar.feature",
+    "id": "anunciar-meu-carro",
+    "keyword": "Funcionalidade",
+    "name": "Anunciar meu carro",
+    "description": "    Para que eu possa receber ofertas de compras\n    Sendo um usuário\n    Posso anunciar meu carro\n\n    -Regras:\n    - Usuário não pode fazer anuncio duplicado\n    - Se o carro for blindado, não permite o anuncio",
+    "line": 3,
+    "elements": [
+      {
+        "id": "anunciar-meu-carro;criar-anúncio",
+        "keyword": "Cenario",
+        "name": "Criar anúncio",
+        "description": "",
+        "line": 13,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@anuncio",
+            "line": 12
+          },
+          {
+            "name": "@auth",
+            "line": 12
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000
+            }
+          },
+          {
+            "output": [
+              "Instanciando as paginas"
+            ],
+            "match": {
+              "location": "features/support/hooks.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5876943000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que possuo o seguinte veículo:",
+            "line": 15,
+            "rows": [
+              {
+                "cells": [
+                  "marca",
+                  "modelo",
+                  "versao",
+                  "ano",
+                  "preco",
+                  "blindado"
+                ]
+              },
+              {
+                "cells": [
+                  "Chevrolet",
+                  "Camaro",
+                  "Blue 79",
+                  "1979",
+                  "250.000,00",
+                  "nao"
+                ]
+              }
+            ],
+            "match": {
+              "location": "features/step_definitions/anunciar_steps.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2250385000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "faço o anúncio deste veículo",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/anunciar_steps.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2432624000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "devo ver a mensagem de sucesso:",
+            "line": 19,
+            "doc_string": {
+              "value": "Parabéns. Seu carro foi anunciado com sucesso.",
+              "content_type": "",
+              "line": 20
+            },
+            "match": {
+              "location": "features/step_definitions/anunciar_steps.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26382000
+            }
+          }
+        ],
+        "after": [
+          {
+            "output": [
+              "Evidenciando os testes"
+            ],
+            "match": {
+              "location": "features/support/hooks.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37342000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+development:
+  clients:
+    default:
+      database: movie-api-dev
+      hosts:
+        - ds237660.mlab.com:37660
+      options:
+        user: developer
+        password: qaninja

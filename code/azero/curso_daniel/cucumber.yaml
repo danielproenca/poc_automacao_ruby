@@ -1,0 +1,8 @@
+---
+default: -p html --format progress -p headless
+#default: -p html --format pretty
+json: --format json --out=log/features.json
+html: --format html --out=log/features.html
+chrome: BROWSER=chrome
+firefox: BROWSER=firefox
+headless: BROWSER=headless

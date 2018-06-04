@@ -1,0 +1,412 @@
+[
+  {
+    "uri": "features/specs/cadastro.feature",
+    "id": "cadastro-de-usuários",
+    "keyword": "Funcionalidade",
+    "name": "Cadastro de Usuários",
+    "description": "Sendo um usuário\nPosso fazer meu cadastro\nPara poder anunciar o meu carro",
+    "line": 4,
+    "comments": [
+      {
+        "value": "#n",
+        "line": 3
+      }
+    ],
+    "elements": [
+      {
+        "id": "cadastro-de-usuários;cadastro-simplificado",
+        "keyword": "Cenario",
+        "name": "Cadastro simplificado",
+        "description": "",
+        "line": 78,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@cadastro_simplificado",
+            "line": 77
+          }
+        ],
+        "comments": [
+          {
+            "value": "#Nome completo do usuário",
+            "line": 9
+          },
+          {
+            "value": "#Email do usuário",
+            "line": 10
+          },
+          {
+            "value": "#Senha do usuário",
+            "line": 11
+          },
+          {
+            "value": "#Senha de ter no minimo 6 caracteres",
+            "line": 12
+          },
+          {
+            "value": "#V.1",
+            "line": 14
+          },
+          {
+            "value": "# @cadastro_simplificado",
+            "line": 15
+          },
+          {
+            "value": "# Cenario: Cadastro simplificado",
+            "line": 16
+          },
+          {
+            "value": "# Dado que eu preencho o campo nome com \"Daniel Proenca\"",
+            "line": 17
+          },
+          {
+            "value": "# E preencho o campo email com \"daniel.glp@hotmail.io\"",
+            "line": 18
+          },
+          {
+            "value": "# E preencho o campo senha com \"123456\"",
+            "line": 19
+          },
+          {
+            "value": "# Quando clico em cadastrar",
+            "line": 20
+          },
+          {
+            "value": "# Então meu Cadastro deve ocorrer com sucesso",
+            "line": 21
+          },
+          {
+            "value": "#V.1",
+            "line": 22
+          },
+          {
+            "value": "# @email_Incorreto",
+            "line": 23
+          },
+          {
+            "value": "# Cenario: Email incorreto",
+            "line": 24
+          },
+          {
+            "value": "#     Dado que eu preencho o campo nome com \"Daniel Proenca\"",
+            "line": 25
+          },
+          {
+            "value": "#     E preencho o campo email com \"daniel.glp$hotmail.com\"",
+            "line": 26
+          },
+          {
+            "value": "#     E preencho o campo senha com \"123456\"",
+            "line": 27
+          },
+          {
+            "value": "#     Quando clico em cadastrar",
+            "line": 28
+          },
+          {
+            "value": "#     Então devo ver a mesangem \"Email inválido.\"",
+            "line": 29
+          },
+          {
+            "value": "#  Cenario: Nome em branco",
+            "line": 31
+          },
+          {
+            "value": "#     Dado que eu preencho o campo nome com \"\"",
+            "line": 32
+          },
+          {
+            "value": "#     E preencho o campo email com \"daniel.glp@hotmail.com\"",
+            "line": 33
+          },
+          {
+            "value": "#     E preencho o campo senha com \"123456\"",
+            "line": 34
+          },
+          {
+            "value": "#     Quando clico em cadastrar",
+            "line": 35
+          },
+          {
+            "value": "#     Então devo ver a mesangem \"Nome deve ser preenchido\"",
+            "line": 36
+          },
+          {
+            "value": "# Cenario: Email em branco",
+            "line": 38
+          },
+          {
+            "value": "#     Dado que eu preencho o campo nome com \"Daniel Proenca\"",
+            "line": 39
+          },
+          {
+            "value": "#     E preencho o campo email com \"\"",
+            "line": 40
+          },
+          {
+            "value": "#     E preencho o campo senha com \"123456\"",
+            "line": 41
+          },
+          {
+            "value": "#     Quando clico em cadastrar",
+            "line": 42
+          },
+          {
+            "value": "#     Então devo ver a mesangem \"Nome deve ser preenchido\"",
+            "line": 43
+          },
+          {
+            "value": "# Cenario: Senha em branco",
+            "line": 45
+          },
+          {
+            "value": "#     Dado que eu preencho o campo nome com \"Daniel Proenca\"",
+            "line": 46
+          },
+          {
+            "value": "#     E preencho o campo email com \"daniel.glp@hotmail.com\"",
+            "line": 47
+          },
+          {
+            "value": "#     E preencho o campo senha com \"\"",
+            "line": 48
+          },
+          {
+            "value": "#     Quando clico em cadastrar",
+            "line": 49
+          },
+          {
+            "value": "#     Então devo ver a mesangem \"Nome deve ser preenchido\"",
+            "line": 50
+          },
+          {
+            "value": "#  Cenario: Senha com menos de 6 caracteres",
+            "line": 52
+          },
+          {
+            "value": "#     Dado que eu preencho o campo nome com \"Daniel Proenca\"",
+            "line": 53
+          },
+          {
+            "value": "#     E preencho o campo email com \"daniel.glp@hotmail.com\"",
+            "line": 54
+          },
+          {
+            "value": "#     E preencho o campo senha com \"1234\"",
+            "line": 55
+          },
+          {
+            "value": "#     Quando clico em cadastrar",
+            "line": 56
+          },
+          {
+            "value": "#     Então devo ver a mesangem \"Senha deve ter no minimo 6 caracteres.\"",
+            "line": 57
+          },
+          {
+            "value": "#V.2 - Cenários outline, apenas quando o comportamento for o mesmo",
+            "line": 59
+          },
+          {
+            "value": "# @tentativa_cadastro",
+            "line": 60
+          },
+          {
+            "value": "# Esquema do Cenário: Tentativa de Cadastro",
+            "line": 61
+          },
+          {
+            "value": "#   Dado que eu preencho o campo nome com \"<nome>\"",
+            "line": 62
+          },
+          {
+            "value": "#   E preencho o campo email com \"<email>\"",
+            "line": 63
+          },
+          {
+            "value": "#   E preencho o campo senha com \"<senha>\"",
+            "line": 64
+          },
+          {
+            "value": "#   Quando clico em cadastrar",
+            "line": 65
+          },
+          {
+            "value": "#   Então devo ver a mesangem \"<mensagem>\"",
+            "line": 66
+          },
+          {
+            "value": "#   Exemplos:",
+            "line": 68
+          },
+          {
+            "value": "#   | nome   | email               | senha  | mensagem                                |",
+            "line": 69
+          },
+          {
+            "value": "#   | Daniel | daniel$teste.com.br | 123456 | Email inválido.                         |",
+            "line": 70
+          },
+          {
+            "value": "#   |        | daniel@teste.com.br | 123456 | Nome não informado.                     |",
+            "line": 71
+          },
+          {
+            "value": "#   | Daniel |                     | 1234   | Email não informado.                    |",
+            "line": 72
+          },
+          {
+            "value": "#   | Daniel | daniel@teste.com.br |        | Senha não informada.                    |",
+            "line": 73
+          },
+          {
+            "value": "#   | Daniel | daniel@teste.com.br | 1234   | Senha deve ter pelo menos 6 caracteres. |",
+            "line": 74
+          },
+          {
+            "value": "#V3 - Quando o formulário é acima de 3 campos.",
+            "line": 76
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.1.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32072
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.1.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37204
+            }
+          },
+          {
+            "output": [
+              "Tudo aqui acontece antes do cenário"
+            ],
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31645
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9316991461
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que eu tenho o seguinte cadastro",
+            "line": 79,
+            "rows": [
+              {
+                "cells": [
+                  "nome",
+                  "Daniel Proença"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "daniel@af.com"
+                ]
+              },
+              {
+                "cells": [
+                  "senha",
+                  "123456"
+                ]
+              }
+            ],
+            "match": {
+              "location": "features/step_definitions/cadastro_steps.rb:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2475878263
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "clico em cadastrar",
+            "line": 83,
+            "match": {
+              "location": "features/step_definitions/cadastro_steps.rb:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17868738751
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "vejo um loader com a mensagem \"Estamos preparando as coisas...\"",
+            "line": 84,
+            "output": [
+              "Estamos preparando as coisas..."
+            ],
+            "match": {
+              "location": "features/step_definitions/cadastro_steps.rb:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 204836
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "sou autenticado automaticamente",
+            "line": 85,
+            "match": {
+              "location": "features/step_definitions/cadastro_steps.rb:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 142008962
+            }
+          }
+        ],
+        "after": [
+          {
+            "output": [
+              "Tudo aqui acontece depois do cenário",
+              "Evidênciando os testes"
+            ],
+            "match": {
+              "location": "features/support/hooks.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48323
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.1.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 233319407
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
